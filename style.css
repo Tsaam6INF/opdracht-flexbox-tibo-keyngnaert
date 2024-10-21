@@ -1,0 +1,118 @@
+/* Algemene stijlen */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Lichte achtergrondkleur */
+    color: #333; /* Donkere tekstkleur voor contrast */
+    line-height: 1.6; /* Verbeterde leesbaarheid */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header stijl */
+.header {
+    background-color: #007bff; /* Blauwe achtergrond voor de header */
+    color: white; /* Witte tekstkleur */
+    padding: 40px 0; /* Ruimte boven en onder de tekst */
+    text-align: center; /* Centraal uitlijnen */
+}
+
+.header h1 {
+    font-size: 2.5rem; /* Grotere lettergrootte voor de hoofdtitel */
+    margin-bottom: 10px; /* Ruimte onder de titel */
+}
+
+.header p {
+    font-size: 1.2rem; /* Grotere lettergrootte voor de paragraaf */
+}
+
+/* Content stijl */
+.container {
+    max-width: 800px; /* Max breedte van de container */
+    margin: auto; /* Center de container */
+    padding: 20px; /* Binnenruimte in de container */
+    background-color: #ffffff; /* Witte achtergrond voor de content */
+    border-radius: 8px; /* Hoek afgerond */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Schaduw voor diepte */
+}
+
+/* Koppen in de content */
+h2 {
+    font-size: 2rem; /* Grotere lettergrootte voor de subkoppen */
+    color: #007bff; /* Blauwe kleur voor subkoppen */
+    margin-top: 30px; /* Ruimte boven de subkoppen */
+}
+
+/* Links in de content */
+a {
+    color: #007bff; /* Blauwe kleur voor links */
+    text-decoration: none; /* Geen onderstreping */
+}
+
+a:hover {
+    text-decoration: underline; /* Onderstreping bij hover */
+}
+
+/* Navbar stijl */
+.navbar {
+    background-color: #ffffff; /* Witte achtergrond voor de navbar */
+    border-bottom: 1px solid #dee2e6; /* Lichte grens onder de navbar */
+    padding: 10px 20px; /* Binnenruimte in de navbar */
+}
+
+.navbar-brand {
+    font-size: 1.5rem; /* Grotere lettergrootte voor de merknaam */
+    font-weight: bold; /* Vetgedrukte merknaam */
+    color: #007bff; /* Blauwe kleur voor merknaam */
+}
+
+.navbar-toggler {
+    border: none; /* Geen rand voor de toggler */
+}
+
+/* Verwijder de standaard lijststijl van de nav */
+.navbar-nav {
+    list-style-type: none; /* Verwijder de lijststijl */
+    padding-left: 0; /* Verwijder standaard padding */
+}
+
+/* Zorg ervoor dat de links rechts uitgelijnd zijn */
+.navbar-nav {
+    text-align:right; /* Zorg ervoor dat het zich naar rechts uitlijnt */
+}
+
+.nav-link {
+    font-weight: bold; /* Maak de navigatielinks vet */
+    color: #007bff; /* Blauwe kleur voor navigatielinks */
+}
+
+.nav-link:hover {
+    color: #0056b3; /* Donkerdere kleur bij hover */
+}
+
+/* Actieve link stijl */
+.nav-link.active {
+    color: #0056b3; /* Donkerdere kleur voor actieve link */
+    border-bottom: 2px solid #007bff; /* Onderstreping voor actieve link */
+}
+
+/* Footer stijl */
+footer {
+    background-color: #343a40; /* Donkere achtergrond voor de footer */
+    color: white; /* Witte tekstkleur */
+    text-align: center; /* Centraal uitlijnen */
+    padding: 20px 0; /* Ruimte boven en onder */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive aanpassingen */
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 2rem; /* Kleinere lettergrootte op kleinere schermen */
+    }
+
+    .header p {
+        font-size: 1rem; /* Kleinere lettergrootte voor de paragraaf */
+    }
+}
